@@ -1,0 +1,91 @@
+body {
+	background-color:#e0e1e2;
+	box-sizing:border-box;
+}
+
+
+#banner {
+	min-height:500px;
+	min-width:1024px;
+	background: linear-gradient(rgba(0,0,30,0.4),rgba(0,0,0,30.4)), url("comshop.jpg");
+	background-size:cover;
+	text-align:;left;
+	color:white;
+	font-family:sans-serif;
+}
+
+#banner h1 {
+	margin-left:100px;
+	padding:130px 0 40px 0;
+	line-height:80px;
+	font-size:400%;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 5px black;
+}
+
+#main-div {
+	width:70%;
+	margin:0 auto;
+	background-color:#eee;
+}
+
+.amenities {
+	display:flex;
+	height:200px;
+	width:80%;
+	/*border:1px solid black;*/
+	margin:0 auto;
+	padding:20px;
+}
+
+.amenities:hover {
+	background-color:#e5e7ec;
+}
+
+.image-box {
+	width:30%;
+	height:100%;
+	/*background-color:green;*/
+	box-shadow: 1px 3px 5px gray;
+}
+
+.image-box img {
+	width:100%;
+	height:100%;
+}
+
+.details-box {
+	width:70%;
+	height:100%;
+	/*background-color:orange;*/
+	font-family: 'Kanit', sans-serif;
+}
+
+.details-box h1 {
+	margin:5px 30px 0 30px;
+	text-shadow:1px 1px 8px #ddd;
+}
+
+.details-box p {
+	margin:10px 0 0 30px;
+	color:#111;
+	font-family: 'Kanit', sans-serif;
+	text-align:justify;
+}
+
+#title {
+	text-align:center;
+	font-family: 'Kanit', sans-serif;
+	font-size: 250%;
+	padding:25px;
+}
+
+#title-paragraph {
+	width:80%;
+	text-align:justify;
+	margin:0 auto;
+	color:#111;
+	font-family: sans-serif;
+	font-size: 130%;
+	line-height:40px;
+}
