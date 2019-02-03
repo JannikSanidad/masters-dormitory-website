@@ -1,0 +1,77 @@
+body {
+	background-color:#eee;
+	box-sizing:border-box;
+}
+
+
+#main-div {
+	min-height:500px;
+	min-width:1024px;
+	background: linear-gradient(rgba(0,0,30,0.4),rgba(0,0,0,30.4)), url("room.jpg");
+	background-size:cover;
+	text-align:;left;
+	color:white;
+	font-family:sans-serif;
+}
+
+.title {
+	margin-left:100px;
+	padding:130px 0 40px 0;
+	line-height:80px;
+	font-size:400%;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 5px black;
+}
+
+#main-title {
+	padding-left:100px;
+}
+
+#main-content {
+	width:70%;
+	text-align:justify;
+	color:black;
+	font-family:sans-serif;
+	font-size:150%;
+	margin:0 auto;
+}
+
+table {
+	margin:0 auto;
+}
+
+td {
+	/*background-color:yellow;*/
+	width:300px;
+	height:300px;
+	padding:0 20px 0 20px;
+}
+
+tr {
+	margin:0;
+	padding:0;
+}
+table img {
+	width:100%;
+	height:65%;
+	box-shadow:1px 2px 5px gray;
+}
+
+table img:hover {
+	background:linear-gradient(rgba(0,0,30,0.4),rgba(0,0,0,30.4));
+}
+
+table h1 {
+	font-size:130%;
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-family:sans-serif;
+	color:#2452af;
+	box-shadow:0 0 0 white;
+	padding:20px 0 0 0;
+}
+
+table a {
+	text-decoration: none;
+}

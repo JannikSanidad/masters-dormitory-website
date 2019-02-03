@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+	<div id="top"><a href="index.html"><i class="fa fa-arrow-left"></i> Back to Homepage</a></div>
+	<div class="login-form">
+		<img src="final/logo.png"><br>
+		<div class="input-boxes">
+			<i class="fa fa-user"></i><input type="text" name="" id="username" value="Username" onblur="if (this.value == '') {this.value = 'Username';}"
+ onfocus="if (this.value == 'Username') {this.value = '';}">
+		</div>
+		<div class="input-boxes">
+			<i class="fa fa-lock"></i><input type="password" name="" id="password" value="Password" onblur="if (this.value == '') {this.value = 'Password';}"
+ onfocus="if (this.value == 'Password') {this.value = '';}"><br>
+		</div>
+		<div id="login-button">
+			<a onclick="check()" href="#" id="submit" style="font-weight:bold">Log In</a><br>
+		</div>
+		
+		<a href="index.html">Lost your password?</a>
+	</div>
+
+	<script type="text/javascript">
+		function clear(val){
+			var x = document.getElementById(val);
+			x.value = "";
+		}
+
+		function check(){
+			var x = document.getElementById("username");
+			var y = document.getElementById("password");
+			var z = document.getElementById("submit");
+			
+			if(x.value === "admin" && y.value === "admin"){
+				
+				z.href = "tenant.html";
+			}
+			else if(x.value === "jannik" && y.value === "sanidad"){
+				z.href = "info.html"
+			}
+			else{
+				alert("Incorrect Username or Password!")
+			}
+
+		}
+	</script>
+</body>
+</html>

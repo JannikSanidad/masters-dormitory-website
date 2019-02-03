@@ -1,0 +1,36 @@
+.red {
+	background-color:#fc5c5c;
+}
+
+.orange {
+	background-color:#fcb65c;
+}
+
+.yellow {
+	background-color:#fafc5c;
+}
+
+.green {
+	background-color:#60fc5c;
+}
+
+.lightblue {
+	background-color:#5c91fc;
+}
+
+.indigo {
+	background-color:#cd5cfc;
+}
+
+.violet {
+	background-color:#fc5cfa;
+}
+
+td, th {
+	padding:7px 10px;
+	font-family:sans-serif;
+}
+
+td {
+	font-weight:bold;
+}

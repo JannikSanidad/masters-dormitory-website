@@ -1,0 +1,115 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	box-sizing:border-box;
+}
+
+/* HEADER */
+
+#logout {
+	position:fixed;
+	z-index:2;
+	color:white;
+	top:5px;
+	left:95%;
+}
+
+header {
+	position:fixed;
+	z-index:1;
+	width:100%;
+	background-color:black;
+	display:inline-flex;
+	box-shadow:1px 1px 5px black;
+}
+
+header img {
+	padding:3px 15px;
+}
+
+header h1 {
+	font-family:monospace;
+	font-size:300%;
+	margin:15px 8px 0 0;
+	color:white;
+	letter-spacing:2px;
+	text-shadow: 1px 1px 1px white;
+}
+
+header p {
+	width:55%;
+	margin:43px 0 0 0;
+	text-align:right;
+	font-family:sans-serif;
+	font-weight:bold;
+	color:white;
+	text-shadow:1px 0 1px white;
+}
+
+.blue {
+	color:blue;
+}
+
+/* SIDE NAV */
+
+#sidebar {
+	z-index:0;
+	position:fixed;
+	height:1024px;
+	padding-top:66px;
+	background-color:white;
+	width:20%;
+	box-shadow: 7px 0 10px gray;
+}
+
+#sidebar ul {
+	width:100%;
+	/*padding:20px;*/
+	list-style-type:none;
+	height:100%;
+}
+
+#sidebar li {
+	padding:10px 20px;
+	/*letter-spacing: 1px;*/
+	font-weight:bold;
+	box-shadow:0px 1px 5px black;
+	border-bottom-right-radius:9px;
+}
+
+#sidebar li:hover {
+	background-color:#043aa7;
+}
+
+#sidebar a {
+	font-family:arial black;
+	font-size:150%;
+	text-decoration:none;
+	color:black;
+}
+
+#main-section {
+	padding:65px 0 0 270px;
+	
+}
+
+#main-section h1 {
+	color:white;
+	background-color:#1155df;
+	font-size:300%;
+	padding:50px;
+	font-family:Franklin Gothic Medium;
+}
+
+#main-inner {
+	display:inline-flex;
+	width:80%;
+	margin:20px 100px;
+	background-color:#eceff5;
+	border-radius:5px;
+	border:1px solid lightgray;
+	box-shadow:2px 2px 5px black;
+}

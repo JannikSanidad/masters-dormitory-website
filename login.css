@@ -1,0 +1,75 @@
+body {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	min-height:500px;
+	min-width:1024px;
+	background: url("loginbackground.jpg");
+	background-size:cover;
+	text-align:;left;
+	color:white;
+	font-family:sans-serif;
+}
+
+
+#top {
+	padding:10px;
+}
+
+#top a {
+	color: white;
+	text-decoration: none;
+}
+
+#username {
+	border:none;
+}
+
+#password {
+	border:none;
+}
+
+.login-form {
+	padding:20px;
+	border-radius:9px;
+	width:30%;
+	margin:80px auto;
+	background: rgba(0,0,0,0.8);
+	text-align:center;
+}
+
+.login-form img {
+	width:200px;
+	padding:20px;
+}
+
+.input-boxes {
+	height:30px;
+	width:50%;
+	border-radius:15px;
+	background-color: #344;
+	margin:10px auto;
+}
+
+input {
+	outline:none;
+	color:white;
+	background: transparent;
+	margin-left:5px;
+	height:100%;
+}
+
+#login-button {
+	line-height:30px;
+	
+	width:50%;
+	height:30px;
+	border-radius:15px;
+	background-color:orange;
+	margin:10px auto;
+}
+
+#login-button a {
+	text-decoration:none;
+	color:white;
+}

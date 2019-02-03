@@ -1,0 +1,41 @@
+#main-inner {
+	width:80%;
+	display:inline-block;
+}
+
+#main-inner img {
+	border-radius:9px;
+	width:150px;
+	height:150px;
+}
+
+table {
+	margin:10px;
+}
+
+td a {
+	margin:35px;
+	text-align:center;
+	text-decoration:none;
+	color:black;
+	font-family:sans-serif;
+	font-weight:bold;
+}
+
+#create {
+	margin:10px auto;
+	width:220px;
+	text-align:center;
+	padding:10px 20px;
+	background: linear-gradient(to bottom, #5ca0fc,#0b57bf);
+	box-shadow:1px 1px 3px blue;
+	border-radius:10px;
+	color:white;
+}
+
+#create a {
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+	font-family:Segoe UI;
+}
