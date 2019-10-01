@@ -1,4 +1,4 @@
 # masters-dormitory-website
-A school project I made for my web development course subject
+A dormitory website template designed with html and css
 
 [Link Here](https://janniksanidad.github.io/masters-dormitory-website/)
